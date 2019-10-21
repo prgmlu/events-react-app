@@ -10,7 +10,7 @@ export default class App extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            'token': 'eyJhbGciOiJSUzI1NiIsImtpZCI6IjQyZDRkOTkxNWEzZTRmMGQ0MTUzYmJkOGI1OTMyMWZlIiwidHlwIjoiSldUIn0.eyJuYmYiOjE1NzE2ODk2NjcsImV4cCI6MTU3MTY5MzI2NywiaXNzIjoiaHR0cHM6Ly9lbXNhdXRoc3RhZ2luZy5wdGl0LmNvbS5zYSIsImF1ZCI6WyJodHRwczovL2Vtc2F1dGhzdGFnaW5nLnB0aXQuY29tLnNhL3Jlc291cmNlcyIsImVtc19hcGkiXSwiY2xpZW50X2lkIjoibXZjIiwiY2xpZW50X1BlcmZlY3RUb3VjaC5FbXMudGVuYW50SWQiOiIyREFBNjM4MC0xODQ1LTQ1QzktMzU0Ni0wOEQ3MkIwRDg1QjAiLCJzY29wZSI6WyJyZWFkOmV2ZW50cyJdfQ.eBofJr1DRd2QJkU8Td5wEMuWyTIq35c6zXaCjpt3ODdnrYqnOb4AceSG5kms6pDA0q8bqiCwD1dwU8uXFs2swIgXaTEn1_K8WE3RLNXFl0kMb_HKh0FHatYUpbuxCSaXt7BuAwv8d2ThCTeSV26DZ7yt6CSC9NgAZ9NwhvA6jXcuFfB2SODf5NL0v_7a2ouwmbs6HBDH9Vr_VDXmTUzM9mZEyd03OA-hZC6Xl5lg-s6PZUGiLG_mAEi-0_DLD1f_MH2jttPKAy0QGqcVVWIaYXKUk064kVr0YmfLDnXC4GwfNGXXzqp46Fh3ATWwcq9ooyDvfEbzmwbDoGrZn0xcRg',
+            'token': '',
             currentEvent: '1',
             currentActiveSection: 'Events',
             currentActiveEventId: '1'
