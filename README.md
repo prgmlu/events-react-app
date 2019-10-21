@@ -1,4 +1,5 @@
 Receiving Data:
+
 the data is fetched from the API in the app component, and is kept in the App state.
 Axios library is used to send the request to the corresponding endpoint.
 
@@ -31,11 +32,13 @@ then the state would include:
 
 the data is kept like that in order to keep the state flat.
 
-the only API call done outside the App.js component is done in the component: CommitteesContainer.
+the only API call done outside App.js component is done in CommitteesContainer.
 
 
 Components structure:
+
 there's 3 types of components:
+
     layout components (Sidebar.js and MyToolbar.js)
     container components (MainContainer.js EventContainer.js, AbstractsContainer.js...)
     presentational components (Event.js, Abstract.js, )
