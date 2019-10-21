@@ -15,6 +15,7 @@ the data is kept in the App state with the following structure:
 
 for example, lets say we have events [{...,id:1}, {...,id:4}]
 then the state would include: 
+
     committeegroups4
     committeegroups4
 
